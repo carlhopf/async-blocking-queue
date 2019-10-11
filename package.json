@@ -1,0 +1,24 @@
+{
+  "name": "async-blocking-queue",
+  "version": "1.0.0",
+  "description": "AsyncBlockingQueue",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlhopf/async-blocking-queue.git"
+  },
+  "keywords": [
+    "async",
+    "blocking",
+    "queue"
+  ],
+  "author": "Carl Hopf <npm@carlhopf.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlhopf/async-blocking-queue/issues"
+  },
+  "homepage": "https://github.com/carlhopf/async-blocking-queue#readme"
+}
