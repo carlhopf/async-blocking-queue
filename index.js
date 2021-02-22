@@ -1,4 +1,4 @@
-export default class AsyncBlockingQueue {
+ class AsyncBlockingQueue {
   constructor() {
     this.resolvers = [];
     this.promises = [];
@@ -21,4 +21,6 @@ export default class AsyncBlockingQueue {
     if (!this.promises.length) this._push();
     return this.promises.shift();
   }
-}
+ }
+
+module.exports = AsyncBlockingQueue;
